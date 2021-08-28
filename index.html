@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Pearls & Lavender</title>
+		<!-- ///////////////////////////////////////////////////////// -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" />
+		<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" /> -->
+		<link rel="stylesheet" href="style.css" />
+		<!-- <link rel="stylesheet" href="mn.css" /> -->
+		<style></style>
+	</head>
+
+	<body>
+		<div class="header-container">
+			<div id="mobile-menu-col" class="col-1">
+				<input type="checkbox" id="tag-menu" class="nav-trigger" />
+				<div class="drawer">
+					<nav class="nav" role="navigation">
+						<!-- ///////////// NAV MOB///////////// -->
+						<ul class="nav__list pl-2">
+							<li><label id="lbl-bar" class="fa fa-times menu-bar hidden-nav" for="tag-menu"></label></li>
+							<li>
+								<a href="#">Home</a>
+							</li>
+							<li>
+								<input id="group-1" type="checkbox" hidden />
+								<label for="group-1"> <span class="fa fa-angle-right"></span>New Arrivals</label>
+								<ul class="group-list">
+									<li><a href="#">Summer</a></li>
+									<li><a href="#">Winter</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Ending Soon</a>
+							</li>
+							<li>
+								<a href="#">Feedback</a>
+							</li>
+							<li>
+								<input id="group-2" type="checkbox" hidden />
+								<label for="group-2"> <span class="fa fa-angle-right"></span>Contact Us</label>
+								<ul class="group-list">
+									<li><a href="#">Follow Us</a></li>
+									<li><a href="#">Text Us</a></li>
+								</ul>
+								<!-- <a href="#" >Contact Us</a> -->
+							</li>
+							<li style="line-height: 47px; height: 47px"><i class="mr-1"> </i></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="header-content">
+				<div class="container">
+					<a class="logo-content" href=""><img src="https://buraq.pk/wp-content/uploads/2020/09/Buraq-Logo-v3-150x50-2.png" width="" height="" class="img-responsive" /></a>
+					<!--Logo Link-->
+				</div>
+				<div class="logobar primary_color">
+					<label id="lbl-bar" class="fa fa-bars menu-bar hidden-nav" style="color: #fff" for="tag-menu"></label>
+				</div>
+				<div class="menu-header primary_color">
+					<div class="container">
+						<div class="menu-container">
+							<ul class="menu">
+								<li><a href="#">Home</a></li>
+								<li><a href="#">New Arrivals</a></li>
+								<li><a href="#">Ending Soon</a></li>
+								<li><a href="#">Feedback</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="promo hidden-sm hidden-xs">
+			<div class="container">
+				<div class="promo-content">
+					<span class="box-promotion" title="Fast & Free DELIVERY"><i class="fa fa-truck" aria-hidden="true"></i><span>Fast & Free Delivery</span> </span>
+					<span class="box-promotion" title="FREE HOME DELIVERY"><i class="fa fa-globe" aria-hidden="true"></i><span>United States Owned</span></span>
+					<span class="box-promotion" title="FREE HOME DELIVERY"><i class="fa fa-gbp" aria-hidden="true"></i><span>Best Price Guarantee</span></span>
+					<span class="box-promotion" title="FREE HOME DELIVERY"><i class="fa fa-shield" aria-hidden="true"></i><span>Secure Shopping</span></span>
+				</div>
+			</div>
+		</div>
+
+		<!--Header End-->
+		<!-- ------------------------------------ANOTHER PART----------------------------------------------- -->
+		<!-- Gallery and Description section -->
+		<div id="slide-show-fluid-container" class="container-fluid" style="background-color: #fff">
+			<div id="main-gallary-container" class="container align-items-center" style="min-height: 35px">
+				<div class="row p-0 m-0">
+					<!--- Gallery --->
+					<div id="col-gallery" class="col-md-7 mt-3 pt-3" style="background-color: #fff">
+						<div class="row" class="p-0">
+							<div id="lbl-col" class="col-md-2 pt-0 pr-4 text-right" style="background-color: #fff">
+								<!-- Labels -->
+								<label for="id1">
+									<span><img src="imgs/img-1.jpg" width="100" /></span>
+								</label>
+								<label for="id2">
+									<span><img src="imgs/img-2.jpg" width="100" /></span>
+								</label>
+								<label for="id3">
+									<span><img src="imgs/img-3.jpg" width="100" /></span>
+								</label>
+								<label for="id4">
+									<span><img src="imgs/img-4.jpg" width="100" /></span>
+								</label>
+								<label for="id5">
+									<span><img src="imgs/img-5.jpg" width="100" /></span>
+								</label>
+							</div>
+							<div id="show-col" class="col-md-10 p-2 pt-0" style="background-color: #fff">
+								<div class="slide-gallery p-0">
+									<div class="slider justify-content-center d-flex">
+										<!--Image Gallery Start-->
+										<!-- Checkboxes -->
+										<input type="radio" name="slide_switch" id="id1" checked />
+										<input type="radio" name="slide_switch" id="id2" />
+										<input type="radio" name="slide_switch" id="id3" />
+										<input type="radio" name="slide_switch" id="id4" />
+										<input type="radio" name="slide_switch" id="id5" />
+										<!-- Slieds -->
+										<div id="slid-1" class="image-box"><img src="imgs/img-1.jpg" /></div>
+										<div id="slid-2" class="image-box"><img src="imgs/img-2.jpg" /></div>
+										<div id="slid-3" class="image-box"><img src="imgs/img-3.jpg" /></div>
+										<div id="slid-4" class="image-box"><img src="imgs/img-4.jpg" /></div>
+										<div id="slid-5" class="image-box"><img src="imgs/img-5.jpg" /></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Product Description -->
+					<div id="col-descrip" class="col p-4" style="background-color: #fff">
+						<!-- Description, Price, Shipping Part -->
+						<div class="row">
+							<div id="col-prdTitle" class="col-md-12">
+								<!-- Title -->
+								<span class="prd-Title">Product Title goes here</span>
+							</div>
+							<div class="col-md-12 col-specif">
+								<!-- Specification -->
+								<div>
+									<span class="prd-specif text-muted">SKU</span>:
+									<span class="prd-specif-val text-muted">123456</span>
+								</div>
+							</div>
+							<div class="col-md-12 col-specif">
+								<div>
+									<span class="prd-specif text-muted">Product Type</span>:
+									<span class="prd-specif-val text-muted">Service Kit</span>
+								</div>
+							</div>
+							<div class="col-md-12 col-specif">
+								<div>
+									<span class="prd-specif text-muted">Brand</span>:
+									<span class="prd-specif-val text-muted">x-Filtra</span>
+								</div>
+							</div>
+							<div class="col-md-12 col-specif">
+								<!-- Price -->
+								<div class="mt-2">
+									<div class="prd-Price">$148</div>
+									<div class="text-muted small">Under price detail</div>
+								</div>
+							</div>
+							<div class="col-md-12 col-specif">
+								<div class="mt-2">
+									<hr />
+								</div>
+								<!-- Shipping & Return -->
+								<div class="mt-4">
+									<div class="prd-specif" style="font-size: 24px; text-decoration: underline">
+										<a href="#open-modal">Shipping & Returns</a>
+										<div style="overflow-y: scroll; min-height: 100%" class="d-flex p2 flex-center">
+											<div id="open-modal" class="modal-window p2" style="text-align: left !important">
+												<div class="popup-delivery-return position-relative py-30 px-15" data-popup-content="">
+													<a href="#modal-close" title="Close" class="modal-close">close &times;</a>
+													<div class="popup-delivery-return__content mx-auto">
+														<div class="rte">
+															<h4 class="mb-10">Shipping</h4>
+															<ul class="list-sm mb-30">
+																<li>Free Standard Shipping is avaliable for all orders</li>
+																<li>Shipping normally takes 2 to 6 business days for delivery</li>
+																<li>Express delivery option is also available at check out</li>
+																<li>Orders placed before 10AM generally will be dispatched within the same day</li>
+																<li>See the delivery FAQs for other shipping related questions</li>
+															</ul>
+															<h4 class="mb-10">Returns And Exchanges</h4>
+															<ul class="list-sm">
+																<li>Easy returns, within 30 days</li>
+																<li>See conditions and procedure in our return FAQs</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--- Buttons Part / Paypal-->
+						<div class="row">
+							<div class="col-md-12">
+								<div class="mt-4">
+									<a id="btn-add-butitnow" href="http://offer.ebay.com.au/ws/eBayISAPI.dll?BinConfirm&quantity=1&fb=1&item=150877673010" class="btn primary_color btn-danger btn-sm btn-block rounded-0 specific-buttons" style="color: #fff">
+										<span class="mr-3"></span> &nbsp;ADD TO CART <span class="ml-3"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div id="descrip-buttons" class="row">
+							<div id="btn-add-towhishlist" class="col-md-6 mt-1 pr-1">
+								<a
+									href="http://contact.ebay.com.au/ws1/eBayISAPI.dll?ShowEmailAuctionToFriend&rt=nc&item=150877673010"
+									class="btn btn-outline-danger btn-sm btn-block rounded-0 pr-2 specific-buttons"
+									style="color: var(--prim-color); border: 1px solid var(--prim-color) !important"
+								>
+									<span class="mr-3"></span> &nbsp;ADD TO WISHLEST <span class="ml-3"></span>
+								</a>
+							</div>
+							<div id="btn-add-tocompare" class="col-md-6 mt-1 pl-1">
+								<a href="http://cgi1.ebay.com.au/ws/eBayISAPI.dll?MakeTrack&item=150877673010" class="btn btn-outline-danger btn-sm btn-block rounded-0 specific-buttons" style="color: var(--prim-color); border: 1px solid var(--prim-color) !important">
+									<span class="mr-3"></span> &nbsp;ADD TO COMPARE <span class="ml-3"></span>
+								</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="mt-4">
+									<a id="btn-add-butitnow2" href="https://contact.ebay.com.au/ws/eBayISAPI.dll?FindAnswers&frm=284&requested=serviceparts.online" class="btn primary_text_color btn-warning btn-sm btn-block rounded-0 specific-buttons">
+										<span class="mr-3"></span> &nbsp;BUY IT NOW <span class="ml-3"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<div class="mt-4 align-items-center d-flex h-100">
+									<img src="imgs/paypal.jpg" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Tab Area -->
+			<div class="container-fluid" style="background-color: #fff">
+				<div class="container" style="min-height: 250px; background-color: #fff">
+					<div class="col-md-12 pt-1">
+						<div class="tabset">
+							<!-- Tab 1 -->
+							<input type="radio" name="tabset" id="tab1" aria-controls="prodInfo" checked />
+							<label for="tab1">PRODUCT INFORMATION</label>
+							<!-- Tab 2 -->
+							<input type="radio" name="tabset" id="tab2" aria-controls="fitments" />
+							<label for="tab2" style="margin-left: 10px">FITMENTS</label>
+							<!-- Tab 3 -->
+							<input type="radio" name="tabset" id="tab3" aria-controls="teamInfo" />
+							<label for="tab3">BURAQ TEAM</label>
+							<!-- Tab 4 -->
+							<input type="radio" name="tabset" id="tab4" aria-controls="devInfo" />
+							<label for="tab4">BURAQ DEVELOPERS</label>
+							<div class="tab-panels">
+								<section id="prodInfo" class="tab-panel">
+									<h2>Product Info</h2>
+								</section>
+								<section id="fitments" class="tab-panel">
+									<h2>fitments info</h2>
+								</section>
+								<section id="teamInfo" class="tab-panel">
+									<h2>Team Info</h2>
+								</section>
+								<section id="devInfo" class="tab-panel">
+									<h2>Developers info</h2>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Table Area -->
+			<div class="container-fluid mb-2" style="background-color: #fff">
+				<div class="container" style="min-height: 250px">
+					<div class="row">
+						<div class="col-md-12 pt-1" style="background-color: #fff; border-top: 1px solid #e5e5e5">
+							<div class="mt-4">
+								<h5>Why choose us</h5>
+							</div>
+							<table class="table table-bordered" style="max-width: 700px" id="tblInfo">
+								<thead>
+									<tr>
+										<th></th>
+										<th>Service Parts Online (SPO)</th>
+										<th>Others</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Competitive Price</td>
+										<td><i class="fa fa-check" style="color: green" aria-hidden="true"></i></td>
+										<td><i class="fa fa-check" style="color: green" aria-hidden="true"></i></td>
+									</tr>
+									<tr>
+										<td>Well-known suppliers</td>
+										<td><i class="fa fa-check" style="color: green" aria-hidden="true"></i></td>
+										<td>Varies</td>
+									</tr>
+									<tr>
+										<td>Premium Quality</td>
+										<td><i class="fa fa-check" style="color: green" aria-hidden="true"></i></td>
+										<td><i class="fa fa-times" style="color: red" aria-hidden="true"></i>Mostly not</td>
+									</tr>
+									<tr>
+										<td>Warranty</td>
+										<td><i class="fa fa-check" style="color: green" aria-hidden="true"></i></td>
+										<td><i class="fa fa-times" style="color: red" aria-hidden="true"></i>Mostly not stated</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer Area -->
+			<div class="container-fluid" style="border-bottom: var(--prim-color) solid 1px !important; background-color: #232323; margin-top: -8px">
+				<div id="footer" class="container" style="min-height: 250px; background-color: #232323; color: #fff !important">
+					<div class="row p-4">
+						<div id="footer-col-1" class="col-md-5 border-top">
+							<div class="row">
+								<div class="col-md-12 border-top pt-3 pb-3">
+									<a href="/">
+										<img src="imgs/logo-small.png" class="center-block" />
+									</a>
+								</div>
+							</div>
+							<div class="row">
+								<div id="footer-col-1" class="col-md-12 border-top">
+									<div class="">
+										<div class="accord">
+											<input id="accord-1" type="checkbox" name="accord" />
+											<label for="accord-1">HERE TO HELP</label>
+											<div class="accord-content">
+												<div class="d-flex d-lg-block flex-column align-items-center pt-10 pt-lg-0 pb-15 pb-lg-0">
+													<p class="mb-2">
+														Service Parts Online <br />
+														Owned by ST Autos Pty Ltd
+													</p>
+													<p class="mb-2">
+														<i class="mr-10">
+															<svg style="fill: #fff; width: 25px; height: 25px; margin-right: 10px" aria-hidden="true" focusable="false" role="presentation" class="icon icon-theme-234" viewBox="0 0 24 24">
+																<path
+																	d="M16.053 3.083a10.212 10.212 0 0 1 3.174 2.148c.905.905 1.621 1.963 2.148 3.174s.791 2.507.791 3.887-.264 2.676-.791 3.887-1.244 2.269-2.148 3.174c-.905.905-1.963 1.621-3.174 2.148s-2.507.791-3.887.791-2.676-.264-3.887-.791-2.269-1.243-3.174-2.148c-.905-.905-1.621-1.963-2.148-3.174s-.791-2.506-.791-3.887c0-1.38.264-2.676.791-3.887S4.2 6.136 5.105 5.231c.906-.905 1.964-1.621 3.175-2.148s2.506-.791 3.887-.791c1.38 0 2.675.263 3.886.791zm-3.261 17.92a8.722 8.722 0 0 0 5.557-2.529 8.728 8.728 0 0 0 2.529-5.557h-2.461a.598.598 0 0 1-.439-.186.6.6 0 0 1-.186-.439.6.6 0 0 1 .186-.439.6.6 0 0 1 .439-.186h2.461a8.742 8.742 0 0 0-2.529-5.557 8.742 8.742 0 0 0-5.557-2.529v2.461a.598.598 0 0 1-.186.439.601.601 0 0 1-.439.186.598.598 0 0 1-.439-.186.6.6 0 0 1-.186-.439V3.581A8.728 8.728 0 0 0 5.985 6.11a8.722 8.722 0 0 0-2.529 5.557h2.461a.6.6 0 0 1 .439.186.601.601 0 0 1 .186.439.598.598 0 0 1-.186.439.601.601 0 0 1-.439.186H3.456a8.614 8.614 0 0 0 .781 3.047c.442.951 1.025 1.787 1.748 2.51s1.559 1.306 2.51 1.748c.95.443 1.966.703 3.047.781v-2.461a.6.6 0 0 1 .186-.439.6.6 0 0 1 .439-.186.6.6 0 0 1 .439.186.601.601 0 0 1 .186.439v2.461zm3.564-9.151a.601.601 0 0 1 .186.439.598.598 0 0 1-.186.439.601.601 0 0 1-.439.186h-3.75a.58.58 0 0 1-.283-.068.736.736 0 0 1-.225-.186l-3.75-5a.56.56 0 0 1-.117-.458.609.609 0 0 1 .254-.42.57.57 0 0 1 .459-.117.61.61 0 0 1 .419.254l3.555 4.746h3.438c.169 0 .315.062.439.185z"
+																></path>
+															</svg>
+														</i>
+														<span class="text-left">Mon-Fri: 9:00 am - 5:00 pm</span>
+													</p>
+													<p class="mb-2">
+														<i class="mr-10">
+															<svg style="fill: #fff; width: 25px; height: 25px; margin-right: 10px" aria-hidden="true" focusable="false" role="presentation" class="icon icon-theme-153" viewBox="0 0 24 24">
+																<path
+																	d="M22.072 4.807c.013.026.02.049.02.068v.068c.013.026.02.046.02.059v13.75c0 .17-.062.316-.186.439a.601.601 0 0 1-.439.186H2.736a.598.598 0 0 1-.439-.186.598.598 0 0 1-.186-.439V5.002c0-.013.006-.032.02-.059v-.068c0-.019.006-.042.02-.068a.125.125 0 0 0 .029-.049.444.444 0 0 1 .029-.068.145.145 0 0 0 .02-.059c.013 0 .022-.003.029-.01a.04.04 0 0 0 .01-.029l.038-.039a.214.214 0 0 1 .059-.039l.039-.039c.013-.013.032-.02.059-.02a.125.125 0 0 1 .049-.029.184.184 0 0 1 .049-.01c.026-.013.049-.02.068-.02s.042-.006.068-.02H21.525c.026.014.049.02.068.02s.042.007.068.02c.013 0 .029.004.049.01.02.007.036.017.049.029.026 0 .045.007.059.02l.039.039a.286.286 0 0 1 .059.039l.039.039c0 .014.003.023.01.029.006.007.016.01.029.01 0 .014.006.033.02.059a.587.587 0 0 0 .039.068.102.102 0 0 1 .019.049zm-1.211 13.32V6.232l-8.379 6.152a.57.57 0 0 1-.176.088.659.659 0 0 1-.566-.088L3.361 6.232v11.895h17.5zM4.65 5.627l7.461 5.469 7.461-5.469H4.65z"
+																></path>
+															</svg>
+														</i>
+														<a href="mailto:account@stautos.com.au" class="btn-link">Send us an email</a>
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-7">
+							<div class="row">
+								<div class="col-md-4 border-top">
+									<div class="accord">
+										<input id="accord-2" type="checkbox" name="accord" />
+										<label for="accord-2">SHOP</label>
+										<div class="accord-content">
+											<h6 class="py-10 py-lg-0 mb-0 mb-lg-10 text-uppercase">Shop</h6>
+											<div class="footer__section-content" data-js-accordion-content="">
+												<ul class="list-unstyled pb-15 pb-lg-0">
+													<li class=""><a href="/collections/all">All Products</a></li>
+													<li class=""><a href="/collections/service-kit">Service Kit</a></li>
+													<li class=""><a href="/collections/air-filters">Air Filters</a></li>
+													<li class=""><a href="/collections/cabin-air-filters">Cabin Air Filters</a></li>
+													<li class=""><a href="/collections/oil-filters">Oil Filters</a></li>
+													<li class=""><a href="/collections/fuel-filters">Fuel Filters</a></li>
+													<li class=""><a href="/collections/wipers">Wipers</a></li>
+													<li class=""><a href="/collections/centre-bearing">Centre Bearing</a></li>
+													<li class=""><a href="/collections/engine-mounts">Engine Mounts</a></li>
+													<li class=""><a href="/collections/strut-mount-top">Strut Mount Top</a></li>
+													<li class=""><a href="/collections/suspension-bush-parts">Suspension Bush Parts</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 border-top">
+									<div class="accord">
+										<input id="accord-3" type="checkbox" name="accord" />
+										<label for="accord-3">STORE</label>
+										<div class="accord-content">
+											<h6 class="text-uppercase">Store</h6>
+											<div class="footer__section-content d-lg-block" data-js-accordion-content="">
+												<ul class="list-unstyled pb-15 pb-lg-0">
+													<li class=""><a href="/pages/about-us">About us</a></li>
+													<li class=""><a href="/pages/contact-us">Contact us</a></li>
+													<li class=""><a href="/policies/shipping-policy">Shipping Policy</a></li>
+													<li class=""><a href="/policies/refund-policy">Return and Refund</a></li>
+													<li class=""><a href="/policies/privacy-policy">Privacy Policy</a></li>
+													<li class=""><a href="/policies/terms-of-service">Terms of Service</a></li>
+													<li class=""><a href="/pages/terms-of-sale">Terms of Sale</a></li>
+													<li class=""><a href="/blogs/news">Blog</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 border-top" style="padding-bottom: 15px">
+									<div class="accord">
+										<input id="accord-4" type="checkbox" name="accord" />
+										<label for="accord-4">SERVICE</label>
+										<div class="accord-content">
+											<h6 class="py-10 py-lg-0 mb-0 mb-lg-10 text-uppercase">Service</h6>
+											<div class="footer__section-content d-lg-block" data-js-accordion-content="">
+												<ul class="list-unstyled pb-15 pb-lg-0">
+													<li class=""><a href="https://servicepartsonline.com.au/account/">My Account</a></li>
+													<li class=""><a href="/search">Search</a></li>
+													<li class=""><a href="/pages/wish-list">Wish List</a></li>
+													<li class=""><a href="/pages/compare">Compare</a></li>
+													<li class=""><a href="/pages/faqs">FAQs</a></li>
+													<li class=""><a href="/pages/price-match">Price Match</a></li>
+													<li class=""><a href="/pages/business">Business</a></li>
+													<li class=""><a href="/pages/warranty">Warranty</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer Area -->
+			<div class="container-fluid" style="border-top: var(--prim-color) solid 1px !important; background-color: #232323; margin-top: -15px">
+				<div id="Copy" class="container" style="background-color: #232323; color: #fff !important">
+					<div class="row p-4">
+						<div class="col-md-5">
+							<div class="footer__copyright pt-lg-0">
+								<p class="mb-0" style="font-size: 10px">Copyright © ST Autos Pty Ltd. All Rights Reserved. A.B.N. 82 600 564 903</p>
+							</div>
+						</div>
+						<div class="col-md-7"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
