@@ -5,15 +5,12 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>Buraq eBay</title>
-		<!-- ///////////////////////////////////////////////////////// -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" />
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" />
-		<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" /> -->
 		<link rel="stylesheet" href="style.css" />
-		<!-- <link rel="stylesheet" href="mn.css" /> -->
 		<style></style>
 	</head>
 
@@ -24,35 +21,34 @@
 				<div class="drawer">
 					<nav class="nav" role="navigation">
 						<!-- ///////////// NAV MOB///////////// -->
-						<ul class="nav__list pl-2">
-							<li><label id="lbl-bar" class="fa fa-times menu-bar hidden-nav" for="tag-menu"></label></li>
-							<li>
-								<a href="#">Home</a>
+						<ul class="nav__list pl-2 p_c_txt">
+							<li><label id="lbl-bar" class="fa fa-times menu-bar hidden-nav p_c_txt" for="tag-menu"></label></li>
+							<li class="p_c_txt">
+								<a class="p_c_txt" href="#">Home</a>
 							</li>
-							<li>
+							<li class="p_c_txt">
 								<input id="group-1" type="checkbox" hidden />
-								<label for="group-1"> <span class="fa fa-angle-right"></span>New Arrivals</label>
+								<label class="p_c_txt" for="group-1"> <span class="fa fa-angle-right"></span>New Arrivals</label>
 								<ul class="group-list">
-									<li><a href="#">Summer</a></li>
-									<li><a href="#">Winter</a></li>
+									<li><a class="p_c_txt" href="#">Summer</a></li>
+									<li><a class="p_c_txt" href="#">Winter</a></li>
 								</ul>
 							</li>
-							<li>
-								<a href="#">Ending Soon</a>
+							<li class="p_c_txt">
+								<a class="p_c_txt" href="#">Ending Soon</a>
 							</li>
-							<li>
-								<a href="#">Feedback</a>
+							<li class="p_c_txt">
+								<a class="p_c_txt" href="#">Feedback</a>
 							</li>
-							<li>
+							<li class="p_c_txt">
 								<input id="group-2" type="checkbox" hidden />
-								<label for="group-2"> <span class="fa fa-angle-right"></span>Contact Us</label>
+								<label class="p_c_txt" for="group-2"> <span class="fa fa-angle-right"></span>Contact Us</label>
 								<ul class="group-list">
-									<li><a href="#">Follow Us</a></li>
-									<li><a href="#">Text Us</a></li>
+									<li><a class="p_c_txt" href="#">Follow Us</a></li>
+									<li><a class="p_c_txt" href="#">Text Us</a></li>
 								</ul>
-								<!-- <a href="#" >Contact Us</a> -->
 							</li>
-							<li style="line-height: 47px; height: 47px"><i class="mr-1"> </i></li>
+							<li style="line-height: 47px; height: 47px"><i class="mr-1 p_c_txt"> </i></li>
 						</ul>
 					</nav>
 				</div>
@@ -62,10 +58,10 @@
 					<a class="logo-content" href=""><img src="https://buraq.pk/wp-content/uploads/2020/09/Buraq-Logo-v3-150x50-2.png" width="" height="" class="img-responsive" /></a>
 					<!--Logo Link-->
 				</div>
-				<div class="logobar primary_color">
+				<div class="logobar p_c_bg">
 					<label id="lbl-bar" class="fa fa-bars menu-bar hidden-nav" style="color: #fff" for="tag-menu"></label>
 				</div>
-				<div class="menu-header primary_color">
+				<div class="menu-header p_c_bg">
 					<div class="container">
 						<div class="menu-container">
 							<ul class="menu">
@@ -151,19 +147,19 @@
 								<!-- Specification -->
 								<div>
 									<span class="prd-specif text-muted">SKU</span>:
-									<span class="prd-specif-val text-muted">123456</span>
+									<span class="prd-specif-val text-muted p_c_txt">123456</span>
 								</div>
 							</div>
 							<div class="col-md-12 col-specif">
 								<div>
 									<span class="prd-specif text-muted">Product Type</span>:
-									<span class="prd-specif-val text-muted">Service Kit</span>
+									<span class="prd-specif-val text-muted p_c_txt">Service Kit</span>
 								</div>
 							</div>
 							<div class="col-md-12 col-specif">
 								<div>
 									<span class="prd-specif text-muted">Brand</span>:
-									<span class="prd-specif-val text-muted">x-Filtra</span>
+									<span class="prd-specif-val text-muted p_c_txt">x-Filtra</span>
 								</div>
 							</div>
 							<div class="col-md-12 col-specif">
@@ -213,7 +209,7 @@
 						<div class="row">
 							<div class="col-md-12">
 								<div class="mt-4">
-									<a id="btn-add-butitnow" href="http://offer.ebay.com.au/ws/eBayISAPI.dll?BinConfirm&quantity=1&fb=1&item=150877673010" class="btn primary_color btn-danger btn-sm btn-block rounded-0 specific-buttons" style="color: #fff">
+									<a id="btn-add-butitnow" href="http://offer.ebay.com.au/ws/eBayISAPI.dll?BinConfirm&quantity=1&fb=1&item=150877673010" class="btn p_c_bg btn-danger btn-sm btn-block rounded-0 specific-buttons" style="color: #fff">
 										<span class="mr-3"></span> &nbsp;ADD TO CART <span class="ml-3"></span>
 									</a>
 								</div>
@@ -238,7 +234,7 @@
 						<div class="row">
 							<div class="col-md-12">
 								<div class="mt-4">
-									<a id="btn-add-butitnow2" href="https://contact.ebay.com.au/ws/eBayISAPI.dll?FindAnswers&frm=284&requested=serviceparts.online" class="btn primary_text_color btn-warning btn-sm btn-block rounded-0 specific-buttons">
+									<a id="btn-add-butitnow2" href="https://contact.ebay.com.au/ws/eBayISAPI.dll?FindAnswers&frm=284&requested=serviceparts.online" class="btn p_c_txt btn-warning btn-sm btn-block rounded-0 specific-buttons">
 										<span class="mr-3"></span> &nbsp;BUY IT NOW <span class="ml-3"></span>
 									</a>
 								</div>
@@ -457,7 +453,7 @@
 				</div>
 			</div>
 			<!-- Footer Area -->
-			<div class="container-fluid" style="border-top: var(--prim-color) solid 1px !important; background-color: #232323; margin-top: -15px">
+			<div class="container-fluid" style="border-top: #9c2c34 solid 1px !important; background-color: #232323; margin-top: -15px">
 				<div id="Copy" class="container" style="background-color: #232323; color: #fff !important">
 					<div class="row p-4">
 						<div class="col-md-5">
