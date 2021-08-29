@@ -819,7 +819,6 @@ img.search-icon {
 		display: inline-block;
 	}
 	.menu-bar {
-		color: #fff;
 		font-size: 26px;
 		cursor: pointer;
 		padding: 10px 12px;
@@ -954,6 +953,10 @@ img.search-icon {
 	.specific-buttons {
 		padding: 12px;
 		margin-bottom: 5px;
+	}
+	#btn-add-tocompare:hover {
+		background: #9c2c34;
+		color: #fff;
 	}
 	#btn-add-tocompare,
 	#btn-add-towhishlist {
