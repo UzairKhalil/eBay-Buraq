@@ -337,7 +337,8 @@ a:hover {
 	border: 1px solid #f8dc68 !important;
 	border: 1px solid #ad8e0f;
 }
-#btn-add-towhishlist a:hover {
+#btn-add-towhishlist a:hover,
+#btn-add-tocompare a:hover {
 	background-color: #9c2c34 !important;
 	color: #fff !important;
 }
@@ -955,7 +956,6 @@ img.search-icon {
 		margin-bottom: 5px;
 	}
 	#btn-add-tocompare:hover {
-		background: #9c2c34;
 		color: #fff;
 	}
 	#btn-add-tocompare,
